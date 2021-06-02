@@ -1,0 +1,94 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background-image: url(slike/Spomenik_-logor_Jasenovac.1-09.jpg);
+  background-position: center;
+  background-size: cover;
+
+  font-family: sans-serif;
+}
+nav {
+  background-color: olive;
+  height: 100px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 2px;
+  padding: 30px;
+}
+
+ul li {
+  float: left;
+  height: 40px;
+}
+
+ul li a {
+  border: 2px solid thistle;
+  text-decoration: none;
+  padding: 12px 25px;
+}
+
+ul li a:hover {
+  background-color: thistle;
+}
+#glavninaslov {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+}
+button {
+  padding: 25px 40px;
+  margin-left: 700px;
+  background-color: seagreen;
+  border-radius: 25px;
+  margin-top: 40px;
+}
+button a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: steelblue;
+}
+
+.celina {
+  display: flex;
+  justify-content: space-between;
+}
+.tekst1 {
+  width: 800px;
+  font-size: 2em;
+  background-color: rgba(250, 235, 215, 0.397);
+}
+.slika img {
+  text-align: right;
+  width: 700px;
+  margin-top: 100px;
+}
+figcaption {
+  background-color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+#teskspr {
+  font-weight: 700;
+  background-color: rgba(250, 235, 215, 0.397);
+  text-align: center;
+  font-size: 2em;
+}
+img {
+  width: 30%;
+  margin: 1.6666666%;
+}
+#autor {
+  text-align: center;
+  font-size: 2em;
+  padding: 25px 45px;
+}
+#autor1 {
+  background-image: url(slike/cool-background.png);
+  background-size: cover;
+}
